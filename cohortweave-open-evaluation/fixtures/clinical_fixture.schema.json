@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CohortWeave synthetic clinical fixture row",
+  "description": "Schema for synthetic demonstration data only. It is not the protected Challenge 3 schema or patient data.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "subject_id",
+    "age_at_baseline",
+    "gender",
+    "clinical_stage_group",
+    "pd_l1"
+  ],
+  "properties": {
+    "subject_id": {
+      "type": "string",
+      "pattern": "^SYNTH_[0-9]{4}$"
+    },
+    "age_at_baseline": {
+      "type": "number",
+      "minimum": 18,
+      "maximum": 110
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "male",
+        "female"
+      ]
+    },
+    "clinical_stage_group": {
+      "type": "string",
+      "enum": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ]
+    },
+    "pd_l1": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 100
+    }
+  }
+}

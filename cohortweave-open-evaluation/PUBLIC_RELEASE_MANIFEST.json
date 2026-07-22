@@ -1,0 +1,336 @@
+{
+  "version": "0.1.0-spark",
+  "generated": "2026-07-22",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 48,
+      "sha256": "1bfe92978159d626554029499d2868d2af86588a815d5632e3eb52523acba492"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size_bytes": 579,
+      "sha256": "89a8ee6394083b93e3ea2506edc6d3e7f103c555a90a5e2dd80e4639da8ff6ec"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 258,
+      "sha256": "7445fae7cc6fba4b88209e28e03f46207c2ffcd9717f5134c240686a31b90cfb"
+    },
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 503,
+      "sha256": "3665d1ace1a95d6bf802897f908a2304e0daf42741a1efa9ed5804c620bfbcdb"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "size_bytes": 273,
+      "sha256": "174c7f1d574ade17c68f50deb2a67543276405c1a875eff358cd92976ef2768d"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size_bytes": 464,
+      "sha256": "38ee0187962e55535f3c8567b33253c99f7d0cef5bc9187e0c83ca42fa6dafab"
+    },
+    {
+      "path": "Dockerfile",
+      "size_bytes": 285,
+      "sha256": "c47608ce45bd0237ba0068b632e0bcd389bb878556654a166227429328e6981d"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 10820,
+      "sha256": "af975c9737b3bdcdcf7ec3512b3dc936f91cc58a3c9152a8e4b0803f667df6b9"
+    },
+    {
+      "path": "Makefile",
+      "size_bytes": 405,
+      "sha256": "b14701a92a7bedd5054a8a04e001582e42ecce8cbb2e42262521ac431358adf3"
+    },
+    {
+      "path": "NOTICE",
+      "size_bytes": 235,
+      "sha256": "8864457c568af3e2be620e49b358b9ec09d618269b7923bf99f50853dd90ca76"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 4155,
+      "sha256": "b00299d741b9f5365a266d3c91957277e2b94bd1b31c27f2980957517e084b50"
+    },
+    {
+      "path": "SECURITY.md",
+      "size_bytes": 417,
+      "sha256": "0f3a60d45422a32f7d934276116f5311fac2d6757e2f1155bcf91c6e0d223c0e"
+    },
+    {
+      "path": "artifacts/.gitkeep",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/data_provenance.md",
+      "size_bytes": 1287,
+      "sha256": "1daa5f1badb0372215c871dfda81e1b925bb0908b6371782dfc4cc23a13fe66e"
+    },
+    {
+      "path": "docs/evidence_boundaries.md",
+      "size_bytes": 1328,
+      "sha256": "ceefd78450d4d9fc4edee643f8ec80ac94aaa49f8b4a090be31b4cd8c7bf78ee"
+    },
+    {
+      "path": "docs/fairness_stress_test.md",
+      "size_bytes": 998,
+      "sha256": "c4cc48af1f66348c83bce80f91217f43ca4a13e7db9de0850491b343988cb024"
+    },
+    {
+      "path": "docs/images/poc_constraint_ablation.png",
+      "size_bytes": 125481,
+      "sha256": "63567637078f96a7d8a26d75869940b1a7473c91727cd8227a1d0a888117ae74"
+    },
+    {
+      "path": "docs/images/poc_real_ct_pixel_evidence.png",
+      "size_bytes": 98960,
+      "sha256": "ea2fa03a69486dcb211c6d8f17d7a68218a13698ea078b71068639b566d97cf7"
+    },
+    {
+      "path": "docs/images/poc_results.png",
+      "size_bytes": 174949,
+      "sha256": "9ebfdcc904b8067d6d7d92c5785ecd1bd58324f0409bd715f37ec58707bd0006"
+    },
+    {
+      "path": "docs/images/poc_survival_fairness.png",
+      "size_bytes": 86587,
+      "sha256": "57ce6c192f0e67961ada618a0c37e4b80aa202cd5e7d4cd93adbf721e234fac6"
+    },
+    {
+      "path": "docs/metrics.md",
+      "size_bytes": 1953,
+      "sha256": "c5991a6bcdff4f243ae081800557b0172c6a6533a7361335aaeb9004be673fce"
+    },
+    {
+      "path": "docs/open_science.md",
+      "size_bytes": 586,
+      "sha256": "284a6911cf6fd7d887599b6aaf6fca48453659fb5d70870bb2a06c2c619677cb"
+    },
+    {
+      "path": "docs/public_release_checklist.md",
+      "size_bytes": 891,
+      "sha256": "fd374a35e975ee54f7f50e95e3b12913bd1888d492c8b553e86e4baebfa3b0b9"
+    },
+    {
+      "path": "docs/reproduce_spark.md",
+      "size_bytes": 1925,
+      "sha256": "dec8ab9116a715944430461da1df000d3bf276dce7ff53ae54c83d4cb88fb1da"
+    },
+    {
+      "path": "docs/responsible_ai.md",
+      "size_bytes": 702,
+      "sha256": "9949098ae4a79b5f6ea9edc17d06aa66034515e61043cc450d52322447143e60"
+    },
+    {
+      "path": "docs/spark_results.md",
+      "size_bytes": 2192,
+      "sha256": "df7d7aeced2d20409616187c7f531b6f8ad1ff8f19ff0f34d7d68e8bd4d5eaf4"
+    },
+    {
+      "path": "experiments/spark/00_public_index_qc.py",
+      "size_bytes": 5669,
+      "sha256": "794c90b1678212a83fa629d8217ae382282390ce57b7e68866740062872dfa6e"
+    },
+    {
+      "path": "experiments/spark/01_make_cohort.py",
+      "size_bytes": 10025,
+      "sha256": "ef34afa97fe51c6af0eefeeb6a9e6f0f02daf5a27dac0952f2f4cb132500bd2b"
+    },
+    {
+      "path": "experiments/spark/02_synth_eval.py",
+      "size_bytes": 12890,
+      "sha256": "7e9b8e680b4d524c5adf52a77563c029c0a6377172de01a0b7513dadcf3eec0e"
+    },
+    {
+      "path": "experiments/spark/03_imaging.py",
+      "size_bytes": 5553,
+      "sha256": "bfdbf92ee4375527edf1dc107ed48108f63bd97b1c55a08281336dd46fdad682"
+    },
+    {
+      "path": "experiments/spark/04_figures.py",
+      "size_bytes": 5333,
+      "sha256": "32dac6c8c0e43fb9ec638c138dc57ee15005417a5c86415b2ad7938b72ac2f99"
+    },
+    {
+      "path": "experiments/spark/05_survival_fairness.py",
+      "size_bytes": 8894,
+      "sha256": "f9925219233e1d2fc22f54e0a5c5d722a939be340ee869e61db671ac2118911f"
+    },
+    {
+      "path": "experiments/spark/06_survival_figure.py",
+      "size_bytes": 2327,
+      "sha256": "149715667bb8b92ac358084437ff4c1a5df27fff894cd30384bf5a63428bf789"
+    },
+    {
+      "path": "experiments/spark/07_constraint_ablation.py",
+      "size_bytes": 14016,
+      "sha256": "520bebc52778611054f98a8427f031f7cd104b1f7511e800edd399680879bcb6"
+    },
+    {
+      "path": "experiments/spark/08_real_ct_pixel_evidence.py",
+      "size_bytes": 8667,
+      "sha256": "b2d5f11fee333ce3bb11d6d058eda89b54fa98e38ddd6eb0469a6f8ba7260ebb"
+    },
+    {
+      "path": "experiments/spark/README.md",
+      "size_bytes": 576,
+      "sha256": "1df58f1ff1e9ff69938754a6c1ed37d741e4b4b1fc016dfc48b39c54c43c04c4"
+    },
+    {
+      "path": "experiments/spark/compute_budget.py",
+      "size_bytes": 2524,
+      "sha256": "73f4fc0c20f06548f59290de8eb79f98ec01c6b5015d2f54b8434f064ebeb3dd"
+    },
+    {
+      "path": "experiments/spark/run_all.py",
+      "size_bytes": 917,
+      "sha256": "a7a35cae928fddf511c30d8fd0f231170157800ffd6bb800ab91033bb110fc3a"
+    },
+    {
+      "path": "fixtures/README.md",
+      "size_bytes": 434,
+      "sha256": "2ef9c44df2feb6a97d4e2ef562a1dfde07834b7a2a1f06e52c976e8ac82d339c"
+    },
+    {
+      "path": "fixtures/clinical_fixture.schema.json",
+      "size_bytes": 986,
+      "sha256": "2cdc7089293a8f8e4eb64dcd78f51cb43cc332d591dbd56ed28e5a9b713e3b4d"
+    },
+    {
+      "path": "fixtures/fixture_manifest.json",
+      "size_bytes": 639,
+      "sha256": "eeea075ffc985edef6c2ebfce6f0b8574c42c2f7c6d1f93db946a7d5ad97a421"
+    },
+    {
+      "path": "fixtures/synthetic_clinical.csv",
+      "size_bytes": 6801,
+      "sha256": "e7e759e23db094cde7a481469d3a99f82173b34c5a6a4fa2aa8a734cb07f9940"
+    },
+    {
+      "path": "fixtures/synthetic_ct_phantom.nii.gz",
+      "size_bytes": 55014,
+      "sha256": "097f51f4926778ccbfa6da4c4b52c85cdbf8f6b97263dff885db9563839f53f5"
+    },
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 832,
+      "sha256": "1adc97d734df16eb038e05a476b57a5667707bcbdbb45153701385d78581d9da"
+    },
+    {
+      "path": "requirements-real-ct.txt",
+      "size_bytes": 19,
+      "sha256": "b08b82ed4012d68f57f7c4f1f04eb827df8cca42c1514b84a1a87eed111f03d7"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 11,
+      "sha256": "35d465093876e2cb9f79f80da9b97740ffa1264331d55617022645ecc858a8fb"
+    },
+    {
+      "path": "results/README.md",
+      "size_bytes": 396,
+      "sha256": "bb8f480ed54974fffd35bf51a438a4f7dbddc1fc66a8e1a24c9ee44247a3a557"
+    },
+    {
+      "path": "results/case_level/real_ct_proxy_cases.csv",
+      "size_bytes": 38367,
+      "sha256": "415f0acfeb19a4316975392001875907bf1ce17795306ffe84706bdce51344a9"
+    },
+    {
+      "path": "results/compute_budget_output.txt",
+      "size_bytes": 1497,
+      "sha256": "a7716de4b1638b7b5b461d0e9808455a819f446f3109eaa44f66c33fe87f8e36"
+    },
+    {
+      "path": "results/fairness_release_gate.json",
+      "size_bytes": 829,
+      "sha256": "420044dea344c6934e2f190edcb114559677196b07f05356a153a73027123c4a"
+    },
+    {
+      "path": "results/index_qc_summary.json",
+      "size_bytes": 1331,
+      "sha256": "349ddb53786d5c2e7f3fe4584799e91105f3beb6009bb0cf73adc7beeae0c6cd"
+    },
+    {
+      "path": "results/results.json",
+      "size_bytes": 2775,
+      "sha256": "f5dd3c3aa6b40e42a162bec887728cf1680c7de83357fa847ab182ef7136d59e"
+    },
+    {
+      "path": "results/results_constraint_ablation.json",
+      "size_bytes": 6148,
+      "sha256": "076f00370c12a8ddaa0da73e824e73a190e05532ed157d24fa4ecf49eb1e5cd3"
+    },
+    {
+      "path": "results/results_imaging.json",
+      "size_bytes": 375,
+      "sha256": "42e7f97c18259c8c079267b6db30e9602033768c7f769ac7ebee4d620f65137b"
+    },
+    {
+      "path": "results/results_real_ct_pixel.json",
+      "size_bytes": 11071,
+      "sha256": "9dfaa3ed322665a9459dde37fe6da19cbff08e7c7dc243e16a455235f301ac69"
+    },
+    {
+      "path": "results/results_survival.json",
+      "size_bytes": 427,
+      "sha256": "4c21dff65fe6d148baa067540dd2b7702f1c2ac86ad8ee84e254b567768ce645"
+    },
+    {
+      "path": "scripts/check_public_release.py",
+      "size_bytes": 405,
+      "sha256": "3407066d535168512bba55bfa254e4a9bbe1e678ba6cf03fd47ff7ae3b0fda5b"
+    },
+    {
+      "path": "scripts/make_release_archive.py",
+      "size_bytes": 555,
+      "sha256": "879cd6ed14a630fd2a951f8b03f70a30c4a33bc97c4243b6ba3511be26cba38f"
+    },
+    {
+      "path": "scripts/reproduce_spark.py",
+      "size_bytes": 1787,
+      "sha256": "81f1ac46bd5ed1047fc55ea6d6f18310eb0a499220c100f1a37a12c6b4e74440"
+    },
+    {
+      "path": "scripts/verify_frozen_results.py",
+      "size_bytes": 1311,
+      "sha256": "7da3ca71dd4c5ee369f741aaca3d5bda11ac8faa3d566fb3ef3bdad43d3c9243"
+    },
+    {
+      "path": "src/cohortweave_eval/__init__.py",
+      "size_bytes": 88,
+      "sha256": "e8d0f34afade7ef9e1220bda10fe5722c2bb1d19f09e0c6ada9ffa5e2be8eb85"
+    },
+    {
+      "path": "src/cohortweave_eval/metrics.py",
+      "size_bytes": 2171,
+      "sha256": "bc263130e4c6f7ff0500acff09306d59202dfb7b83760fa07d200a9ebb25a297"
+    },
+    {
+      "path": "src/cohortweave_eval/release_audit.py",
+      "size_bytes": 1696,
+      "sha256": "d18336c18e6e7a13438638b93ec155a08f7e3d56d86b0c2f5a86d1d6dd6a9c2b"
+    },
+    {
+      "path": "tests/test_fixtures.py",
+      "size_bytes": 779,
+      "sha256": "536c100b7cf0af96de8b23b5039043f15dc476fdbc9b33e59c87244c9d9b5a0d"
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "size_bytes": 677,
+      "sha256": "a846b2604fa3f3b4e18a0d6211d95d42cfca6dd23de062f06c8add7824a89ae1"
+    },
+    {
+      "path": "tests/test_results_and_release.py",
+      "size_bytes": 414,
+      "sha256": "173954a9c6ac7d252612d3ff0044a45ced89c0e6786e318dc2824df047fb2158"
+    }
+  ]
+}

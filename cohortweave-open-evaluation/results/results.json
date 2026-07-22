@@ -1,0 +1,88 @@
+{
+  "run_metadata": {
+    "seed_synth": 7,
+    "python": "3.13.5",
+    "script_sha256": "7e9b8e680b4d524c5adf52a77563c029c0a6377172de01a0b7513dadcf3eec0e"
+  },
+  "kpi1_fidelity": {
+    "ks_distance": {
+      "age_at_baseline": 0.0184,
+      "pd_l1": 0.0173
+    },
+    "pct_continuous_vars_KS_le_0.10": 100.0,
+    "prevalence_abs_diff_pct": {
+      "gender": 1.75,
+      "tumor_histotype": 0.55,
+      "pd_l1_unknown": 0.92,
+      "local_recurrence_progression": 1.01,
+      "death_related_to_cancer": 0.74,
+      "clinical_stage_group": 0.6,
+      "metastasis_lung": 0.83,
+      "metastasis_pleura": 1.38,
+      "metastasis_lymph_nodes": 0.64,
+      "metastasis_adrenal_gland": 0.83,
+      "metastasis_liver": 1.29,
+      "metastasis_brain": 0.83,
+      "metastasis_bone": 0.55,
+      "metastasis_other": 0.64,
+      "treatment_intent": 0.18,
+      "smoking_status": 0.67,
+      "ecog_performance_status": 0.74,
+      "metastasis_clinical_category": 0.69,
+      "progression_recurrence": 0.64,
+      "distant_metastasis_pr": 1.75,
+      "tumor_clinical_category": 1.19,
+      "regional_nodes_clinical_category": 0.92
+    },
+    "pct_categorical_vars_prevdiff_le_5pct": 100.0,
+    "mean_abs_correlation_error": 0.103
+  },
+  "kpi2_bias_reduction": {
+    "imbalance_ratio_before": 2.135,
+    "imbalance_ratio_after": 1.0,
+    "imbalance_reduction_pct_gender_official_ratio": 53.2,
+    "excess_imbalance_removed_pct": 100.0,
+    "intersectional_gender_x_age_before": 5.44,
+    "intersectional_gender_x_age_after": 2.566,
+    "minority_block_KS": {
+      "age_at_baseline": 0.0398,
+      "pd_l1": 0.0314
+    }
+  },
+  "kpi3_clinical_completion": {
+    "categorical": {
+      "clinical_stage_group": {
+        "model_accuracy": 0.7543,
+        "mode_baseline": 0.3844
+      },
+      "ecog_performance_status": {
+        "model_accuracy": 0.6677,
+        "mode_baseline": 0.4323
+      },
+      "treatment_intent": {
+        "model_accuracy": 0.713,
+        "mode_baseline": 0.5926
+      },
+      "metastasis_clinical_category": {
+        "model_accuracy": 0.9907,
+        "mode_baseline": 0.6044
+      },
+      "distant_metastasis_pr": {
+        "model_accuracy": 1.0,
+        "mode_baseline": 0.6361
+      }
+    },
+    "pd_l1_MAE_model": 12.344,
+    "pd_l1_MAE_median_baseline": 18.205,
+    "pd_l1_MAE_improvement_pct": 32.2,
+    "categorical_targets_meeting_90pct": 2,
+    "categorical_targets_tested": 5,
+    "imaging_completion_status": "not_implemented_in_spark_poc"
+  },
+  "privacy_smoke_test": {
+    "exact_row_match_rate_pct": 0.0,
+    "numeric_dcr_median_standardized": 0.0512,
+    "numeric_dcr_p05_standardized": 0.0,
+    "warning": "Smoke tests only; not evidence of anonymisation. Membership-inference, linkage and singling-out tests run in the secure environment."
+  }
+}

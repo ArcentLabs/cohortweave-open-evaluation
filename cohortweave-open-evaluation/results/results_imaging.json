@@ -1,0 +1,15 @@
+{
+  "kpi4_robustness_CCC_joint_entropy": {
+    "sigma_5HU": 0.9998,
+    "sigma_10HU": 0.9979,
+    "sigma_20HU": 0.9694
+  },
+  "kpi4_all_levels_pass_0.85": true,
+  "kpi3_harmonization": {
+    "wasserstein_before": 59.44,
+    "wasserstein_after": 3.56,
+    "wasserstein_reduction_pct": 94.0,
+    "joint_entropy_CCC_preserved": 0.9879,
+    "meets_30pct_and_CCC_0.85": true
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "run_metadata": {
+    "seed": 20260716,
+    "python": "3.13.5",
+    "script_sha256": "520bebc52778611054f98a8427f031f7cd104b1f7511e800edd399680879bcb6"
+  },
+  "scope_statement": "Proof-of-mechanism on a deterministic schema-aligned surrogate. It does not constitute protected-data, clinical or multimodal validation.",
+  "reference_surrogate": {
+    "rows": 1088,
+    "rule_violation_rate_pct": 0.0,
+    "rules_tested": [
+      "distant_flag_matches_recorded_sites",
+      "m_category_matches_distant_flag",
+      "stage_iv_matches_m1",
+      "pdl1_unknown_matches_missingness"
+    ]
+  },
+  "variants": {
+    "A_unconstrained": {
+      "variant": "A_unconstrained",
+      "rows": 1088,
+      "clinical_contradiction_rate_pct": 67.0,
+      "mean_rule_violations_per_row": 1.096,
+      "per_rule_violation_pct": {
+        "distant_flag_matches_recorded_sites": 38.33,
+        "m_category_matches_distant_flag": 25.74,
+        "stage_iv_matches_m1": 25.92,
+        "pdl1_unknown_matches_missingness": 19.58
+      },
+      "continuous_vars_passing_KS_le_0.10_pct": 100.0,
+      "categorical_vars_passing_prevalence_le_5pct_pct": 100.0,
+      "non_sensitive_categorical_vars_passing_prevalence_le_5pct_pct": 100.0,
+      "mean_abs_categorical_prevalence_diff_pct": 0.879,
+      "mean_abs_non_sensitive_prevalence_diff_pct": 0.837,
+      "max_prevalence_drift": {
+        "variable": "gender",
+        "absolute_difference_pct": 1.746
+      },
+      "imbalance_ratio_male_to_female": 2.317,
+      "ks_distance": {
+        "age_at_baseline": 0.0184,
+        "pd_l1": 0.0173
+      },
+      "privacy_smoke_test": {
+        "exact_row_match_rate_pct": 0.0,
+        "numeric_dcr_median_standardized": 0.0512,
+        "numeric_dcr_p05_standardized": 0.0
+      }
+    },
+    "B_posthoc_filter": {
+      "variant": "B_posthoc_filter",
+      "rows": 1088,
+      "clinical_contradiction_rate_pct": 0.0,
+      "mean_rule_violations_per_row": 0.0,
+      "per_rule_violation_pct": {
+        "distant_flag_matches_recorded_sites": 0.0,
+        "m_category_matches_distant_flag": 0.0,
+        "stage_iv_matches_m1": 0.0,
+        "pdl1_unknown_matches_missingness": 0.0
+      },
+      "continuous_vars_passing_KS_le_0.10_pct": 100.0,
+      "categorical_vars_passing_prevalence_le_5pct_pct": 95.5,
+      "non_sensitive_categorical_vars_passing_prevalence_le_5pct_pct": 95.2,
+      "mean_abs_categorical_prevalence_diff_pct": 2.308,
+      "mean_abs_non_sensitive_prevalence_diff_pct": 2.347,
+      "max_prevalence_drift": {
+        "variable": "pd_l1_unknown",
+        "absolute_difference_pct": 18.658
+      },
+      "imbalance_ratio_male_to_female": 1.997,
+      "ks_distance": {
+        "age_at_baseline": 0.0285,
+        "pd_l1": 0.0201
+      },
+      "privacy_smoke_test": {
+        "exact_row_match_rate_pct": 0.0,
+        "numeric_dcr_median_standardized": 0.0512,
+        "numeric_dcr_p05_standardized": 0.0
+      },
+      "posthoc_total_draws": 4096,
+      "posthoc_valid_rows_before_truncation": 1282,
+      "posthoc_valid_sample_yield_pct": 31.3
+    },
+    "C_constraint_repair_proxy": {
+      "variant": "C_constraint_repair_proxy",
+      "rows": 1088,
+      "clinical_contradiction_rate_pct": 0.0,
+      "mean_rule_violations_per_row": 0.0,
+      "per_rule_violation_pct": {
+        "distant_flag_matches_recorded_sites": 0.0,
+        "m_category_matches_distant_flag": 0.0,
+        "stage_iv_matches_m1": 0.0,
+        "pdl1_unknown_matches_missingness": 0.0
+      },
+      "continuous_vars_passing_KS_le_0.10_pct": 100.0,
+      "categorical_vars_passing_prevalence_le_5pct_pct": 90.9,
+      "non_sensitive_categorical_vars_passing_prevalence_le_5pct_pct": 90.5,
+      "mean_abs_categorical_prevalence_diff_pct": 1.773,
+      "mean_abs_non_sensitive_prevalence_diff_pct": 1.774,
+      "max_prevalence_drift": {
+        "variable": "metastasis_lymph_nodes",
+        "absolute_difference_pct": 5.79
+      },
+      "imbalance_ratio_male_to_female": 2.317,
+      "ks_distance": {
+        "age_at_baseline": 0.0184,
+        "pd_l1": 0.0185
+      },
+      "privacy_smoke_test": {
+        "exact_row_match_rate_pct": 0.0,
+        "numeric_dcr_median_standardized": 0.0512,
+        "numeric_dcr_p05_standardized": 0.0
+      }
+    },
+    "D_fairness_plus_constraints": {
+      "variant": "D_fairness_plus_constraints",
+      "rows": 1088,
+      "clinical_contradiction_rate_pct": 0.0,
+      "mean_rule_violations_per_row": 0.0,
+      "per_rule_violation_pct": {
+        "distant_flag_matches_recorded_sites": 0.0,
+        "m_category_matches_distant_flag": 0.0,
+        "stage_iv_matches_m1": 0.0,
+        "pdl1_unknown_matches_missingness": 0.0
+      },
+      "continuous_vars_passing_KS_le_0.10_pct": 100.0,
+      "categorical_vars_passing_prevalence_le_5pct_pct": 90.9,
+      "non_sensitive_categorical_vars_passing_prevalence_le_5pct_pct": 95.2,
+      "mean_abs_categorical_prevalence_diff_pct": 3.242,
+      "mean_abs_non_sensitive_prevalence_diff_pct": 2.534,
+      "max_prevalence_drift": {
+        "variable": "gender",
+        "absolute_difference_pct": 18.107
+      },
+      "imbalance_ratio_male_to_female": 1.0,
+      "ks_distance": {
+        "age_at_baseline": 0.0239,
+        "pd_l1": 0.0328
+      },
+      "privacy_smoke_test": {
+        "exact_row_match_rate_pct": 0.0,
+        "numeric_dcr_median_standardized": 0.0512,
+        "numeric_dcr_p05_standardized": 0.0
+      },
+      "evidence_gate": {
+        "checks": {
+          "clinical_contradiction_rate_le_5pct": true,
+          "continuous_fidelity_80pct_variables": true,
+          "non_sensitive_categorical_fidelity_80pct_variables": true,
+          "gender_imbalance_ratio_le_1.05": true,
+          "exact_replay_rate_zero": true
+        },
+        "passed": true
+      }
+    }
+  },
+  "headline": {
+    "raw_contradiction_rate_pct": 67.0,
+    "constraint_proxy_contradiction_rate_pct": 0.0,
+    "relative_contradiction_reduction_pct": 100.0,
+    "posthoc_valid_yield_pct": 31.3,
+    "constraint_proxy_categorical_fidelity_pass_pct": 90.9,
+    "fair_variant_imbalance_ratio": 1.0,
+    "fair_variant_non_sensitive_fidelity_pass_pct": 95.2,
+    "fair_variant_evidence_gate_passed": true
+  }
+}

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use the public CohortWeave evaluation components, cite this software release."
+title: "CohortWeave Open Evaluation"
+type: software
+authors:
+  - family-names: "Paunova"
+    given-names: "Eva"
+version: 0.1.0
+date-released: 2026-07-22
+license: Apache-2.0
+abstract: "Non-sensitive evaluation code, synthetic fixtures and frozen Spark-phase results for CohortWeave."
+keywords:
+  - synthetic clinical data
+  - medical imaging
+  - fairness
+  - radiomics
+  - reproducibility

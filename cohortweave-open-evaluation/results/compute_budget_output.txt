@@ -1,0 +1,20 @@
+Public-index context: 1088 studies, 6169 indexed series, 142 distinct study-name strings (not validated protocols).
+
+Component                                    params     h/run  runs   A100-h
+------------------------------------------------------------------------------
+Tabular diffusion (TabDDPM) + imputers       5-20M          2    30       60
+2.5D CT autoencoder (latent space)           60-120M       40    10      400
+CT latent-diffusion synthesis+completion     150-400M      60    18     1080
+kVp harmonisation diffusion (+radiomic)      50-120M       45    12      540
+------------------------------------------------------------------------------
+Training subtotal                                                       2080
+Evaluation + monthly leaderboard (5 cycles)                              350
+Preprocessing / segmentation (GPU share)                                 150
+------------------------------------------------------------------------------
+Nominal total                                                           2580
++ contingency (25%)                                                      645
+REQUESTED ALLOCATION (rounded)                                          3000
+
+Node-equivalent: 806 node-hours (~34 node-days) on 4x A100 Booster nodes over 5 months.
+CPU: ~5,000 core-hours provisional (DICOM conversion, QC and radiomics; revise after secure inventory).
+Storage: up to 5 TB provisional scratch; source data remain under the secure environment's governance.

@@ -1,0 +1,39 @@
+{
+  "scope": {
+    "evidence_type": "public metadata ingestion/QC only",
+    "not_included": [
+      "protected clinical JSON",
+      "DICOM pixels",
+      "model training",
+      "clinical validation"
+    ],
+    "source": "14046442.zip",
+    "index_sha256": "36199ad65eb2b32be1ea70432ec44b516e501c4bc16400c99a658d474e84c78a"
+  },
+  "counts": {
+    "studies": 1088,
+    "unique_study_ids": 1088,
+    "unique_subject_hashes": 1088,
+    "series": 6169,
+    "unique_series_folder_ids": 6169,
+    "distinct_study_name_strings": 142,
+    "series_per_study_min": 1,
+    "series_per_study_median": 5,
+    "series_per_study_mean": 5.67,
+    "series_per_study_max": 22
+  },
+  "validation": {
+    "schema_errors": 0,
+    "duplicate_study_ids": 0,
+    "duplicate_subject_hashes": 0,
+    "duplicate_series_folder_ids": 0,
+    "valid_study_id_format_pct": 100.0,
+    "valid_subject_hash_format_pct": 100.0,
+    "valid_series_folder_format_pct": 100.0,
+    "studies_with_exactly_one_train_val_tag": 1088,
+    "train_val_tag_count_distribution": {
+      "1": 1088
+    }
+  },
+  "interpretation": "The public index demonstrates ingestion/QC readiness at full metadata scale. Distinct study-name strings are not treated as validated acquisition protocols, and the indexed series count is not assumed to be the final Challenge 3 training workload."
+}

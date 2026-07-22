@@ -1,0 +1,18 @@
+{
+  "scope": "Illustrative surrogate downstream utility stress test; not clinical validation.",
+  "policy": {
+    "female_c_index_change_min": 0.0,
+    "overall_c_index_change_min": -0.01,
+    "male_c_index_change_min": -0.02,
+    "gap_reduction_min_pct": 0.0,
+    "protected_data_rule": "Re-estimate with patient-held-out evaluation, bootstrap confidence intervals and calibration. Reject balancing when utility is not improved/preserved or harms another subgroup."
+  },
+  "observed": {
+    "female_c_index_change": 0.0714,
+    "overall_c_index_change": 0.0253,
+    "male_c_index_change": 0.0112,
+    "sex_gap_reduction_pct": 36.3
+  },
+  "spark_surrogate_gate_passed": true,
+  "warning": "The stress test uses a deliberately constructed synthetic survival outcome and cannot establish real-world fairness or clinical benefit."
+}

@@ -1,0 +1,25 @@
+{
+  "synthetic_clinical.csv": {
+    "rows": 64,
+    "columns": 25,
+    "sha256": "e7e759e23db094cde7a481469d3a99f82173b34c5a6a4fa2aa8a734cb07f9940"
+  },
+  "synthetic_ct_phantom.nii.gz": {
+    "shape": [
+      32,
+      32,
+      16
+    ],
+    "dtype": "float32",
+    "voxel_spacing_mm": [
+      1.5,
+      1.5,
+      3.0
+    ],
+    "provenance": "procedurally generated synthetic HU-like texture; no real anatomy or patient data",
+    "sha256": "097f51f4926778ccbfa6da4c4b52c85cdbf8f6b97263dff885db9563839f53f5"
+  },
+  "clinical_fixture.schema.json": {
+    "sha256": "2cdc7089293a8f8e4eb64dcd78f51cb43cc332d591dbd56ed28e5a9b713e3b4d"
+  }
+}
