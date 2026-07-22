@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or its public evaluation components, please cite it using these metadata."
+title: "CohortWeave Open Evaluation"
+type: software
+authors:
+  - name: "ArcentLabs"
+    email: "eva@arcentlabs.com"
+abstract: >-
+  Open, non-sensitive evaluation and reproducibility components for
+  CohortWeave: Clinically Constrained Generative Enhancement of Fair
+  Cancer-Imaging Cohorts. The repository includes surrogate tabular
+  experiments, synthetic CT phantom evaluations, public proxy evaluations,
+  metric implementations, frozen results, tests, and public-release audit
+  tooling.
+keywords:
+  - medical imaging
+  - cancer imaging
+  - synthetic data
+  - cohort enhancement
+  - reproducible research
+  - responsible AI
+  - fairness
+  - radiomics
+license: Apache-2.0
+repository-code: "https://github.com/ArcentLabs/cohortweave-open-evaluation"
+url: "https://arcentlabs.com"
+contact:
+  - name: "ArcentLabs"
+    email: "eva@arcentlabs.com"
