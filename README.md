@@ -7,7 +7,7 @@ Open, non-sensitive evaluation and reproducibility components for **CohortWeave:
 ## Ten-minute verification
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ArcentLabs/cohortweave-open-evaluation.git cd cohortweave-open-evaluation
 cd cohortweave-open-evaluation
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
