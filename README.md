@@ -1,6 +1,10 @@
 [![CI](https://github.com/ArcentLabs/cohortweave-open-evaluation/actions/workflows/ci.yml/badge.svg)](https://github.com/ArcentLabs/cohortweave-open-evaluation/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](#ten-minute-verification)
+
+![CohortWeave Open Evaluation](cohortweave_social_preview_under_1mb.jpg)
+
+# CohortWeave Open Evaluation
 # CohortWeave Open Evaluation
 
 Open, non-sensitive evaluation and reproducibility components for **CohortWeave: Clinically Constrained Generative Enhancement of Fair Cancer-Imaging Cohorts**.
