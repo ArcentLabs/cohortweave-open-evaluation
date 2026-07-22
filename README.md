@@ -1,3 +1,5 @@
+https://github.com/ArcentLabs/cohortweave-open-evaluation/actions
+
 # CohortWeave Open Evaluation
 
 Open, non-sensitive evaluation and reproducibility components for **CohortWeave: Clinically Constrained Generative Enhancement of Fair Cancer-Imaging Cohorts**.
